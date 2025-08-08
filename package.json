@@ -57,7 +57,7 @@
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^18.2.0",
     "react-test-renderer": "^18.2.0",
-    "rimraf": "^5.0.1",
+    "rimraf": "^5.0.10",
     "sinon": "^15.1.0",
     "storybook": "^7.0.20",
     "style-loader": "^2.0.0",
@@ -82,6 +82,7 @@
     "react-dom": "0.13.x || 0.14.x || ^15.0.0-0 || 15.x.x || ^16.0.0-0 || ^16.x.x || ^17.x.x || ^18.x.x || ^19.x.x"
   },
   "scripts": {
+    "prepare": "npm run build",
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack  --mode production --config config/webpack.config.js",
     "build": "npm run clean && npm run build:webpack",
