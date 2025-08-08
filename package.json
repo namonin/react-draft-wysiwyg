@@ -5,9 +5,9 @@
   "main": "dist/react-draft-wysiwyg.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpuri/react-draft-wysiwyg.git"
+    "url": "https://github.com/namonin/react-draft-wysiwyg.git"
   },
-  "author": "Jyoti Puri",
+  "author": "A.Mandanici",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
